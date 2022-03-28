@@ -20,3 +20,12 @@ cat.complain = function() {
 }
 // should not be called according to assignment?
 cat.complain();
+
+
+// Question 2
+
+const heading = document.querySelector("h3");
+heading.innerHTML = "Updated heading";
+
+
+// Question 3
