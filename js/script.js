@@ -12,3 +12,11 @@ const cats = [
     }
 ];
 
+// Question 1
+
+const cat = new Object();
+cat.complain = function() {
+    console.log("Meow!");
+}
+// should not be called according to assignment?
+cat.complain();
