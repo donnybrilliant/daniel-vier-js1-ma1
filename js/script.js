@@ -29,3 +29,5 @@ heading.innerHTML = "Updated heading";
 
 
 // Question 3
+
+heading.style.fontSize = "2rem";
