@@ -49,5 +49,14 @@ for (let i = 0; i < paragraphs.length; i++) {
 
 const resultsContainer = document.querySelector("div.results");
 resultsContainer.innerHTML = "<p>New paragraph</p>";
+resultsContainer.style.background = "yellow";
 
+// Question 7
 
+const listNames = function(list) {
+    for (let i = 0; i < list.length; i++) {
+        console.log(list[i].name);
+    }
+}
+
+listNames(cats);
