@@ -43,3 +43,11 @@ const paragraphs = document.querySelectorAll("p");
 for (let i = 0; i < paragraphs.length; i++) {
     paragraphs[i].style.color = "red";
 }
+
+
+// Question 6
+
+const resultsContainer = document.querySelector("div.results");
+resultsContainer.innerHTML = "<p>New paragraph</p>";
+
+
