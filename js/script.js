@@ -36,3 +36,10 @@ heading.style.fontSize = "2rem";
 // Question 4
 
 heading.className = "subheading";
+
+// Question 5
+
+const paragraphs = document.querySelectorAll("p");
+for (let i = 0; i < paragraphs.length; i++) {
+    paragraphs[i].style.color = "red";
+}
